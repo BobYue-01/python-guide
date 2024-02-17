@@ -1,0 +1,92 @@
+site_name: IAI's Python 入门指南
+copyright: Copyright &copy; 2024 BUAA IAISU
+
+theme:
+  name: material
+  language: zh
+  # font:
+  #   text: Noto Serif SC
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: 切换到夜间模式
+    - scheme: slate
+      primary: indigo
+      accent: yellow
+      toggle:
+        icon: material/brightness-4
+        name: 切换到日间模式
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+repo_url: https://github.com/BobYue-01/py-intro
+repo_name: py-intro
+edit_uri: edit/main/docs/
+
+nav:
+  - 文档:
+    - doc/index.md
+    - 环境准备:
+      - doc/env/index.md
+      - 安装解释器: doc/env/interpreter.md
+      - 选择编辑器: doc/env/editor.md
+      - 配置包管理器: doc/env/package-manager.md
+      - 配置 Jupyter: doc/env/jupyter.md
+    - 基本语法:
+      - 差异速览: doc/syntax/diff.md
+      - 数据类型: doc/syntax/data-type.md
+      - 高级特性: doc/syntax/advanced.md
+    - 面向对象:
+      - 类与对象: doc/oop/class.md
+      - 继承与多态: doc/oop/inheritance.md
+  - 关于: about.md
+
+plugins:
+  # - tags:
+  #     tags_file: index/authors.md
+  - search:
+      lang: zh
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - admonition
+  - footnotes
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - src/css/custom.css
+
+extra_javascript:
+  - src/javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - src/javascripts/custom.js
