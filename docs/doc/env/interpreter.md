@@ -1,6 +1,14 @@
 # 安装 Python 解释器
 
-Python 是一门[解释型语言](https://en.wikipedia.org/wiki/Interpreter_(computing))，我们需要安装 Python 解释器来执行 Python 代码。
+!!! abstract "关于本节"
+
+    Python 是一门[解释型语言](https://en.wikipedia.org/wiki/Interpreter_(computing))，我们需要安装 Python 解释器来执行 Python 代码。
+
+    本节指导安装 Python 最新发行版的官方解释器。
+
+!!! info "跳过本节"
+
+    如果你已经安装了较新的 Python 解释器，或者你将使用 Conda / Miniconda / Anaconda 等环境，可以跳过此节。
 
 ## 下载
 

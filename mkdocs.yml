@@ -50,8 +50,8 @@ nav:
     - 环境准备:
       - doc/env/index.md
       - 安装解释器: doc/env/interpreter.md
-      - 选择编辑器: doc/env/editor.md
       - 配置包管理器: doc/env/package-manager.md
+      - 选择编辑器: doc/env/editor.md
       - 配置 Jupyter: doc/env/jupyter.md
     - 基本语法:
       - 差异速览: doc/syntax/diff.md
@@ -60,13 +60,18 @@ nav:
     - 面向对象:
       - 类与对象: doc/oop/class.md
       - 继承与多态: doc/oop/inheritance.md
-  - 关于: about.md
+  - 关于: index.md
 
 plugins:
   # - tags:
   #     tags_file: index/authors.md
   - search:
       lang: zh
+  - git-revision-date-localized:
+      type: timeago
+  - git-committers:
+      repository: BobYue-01/py-intro
+      branch: main
 
 markdown_extensions:
   - md_in_html

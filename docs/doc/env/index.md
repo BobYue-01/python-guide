@@ -1,12 +1,15 @@
 # 环境准备
 
-本页为「环境准备」章节的索引。
+!!! abstract "关于本章"
 
-要愉快地使用 Python 编程，我们需要先准备好开发环境。
+	「环境准备」章将介绍如何准备 Python 编程环境，包括 Python 解释器、编辑器、包管理器等。
 
-本节将介绍安装 Python 解释器、编辑器、包管理器等的步骤。
+	本页面为本章的索引。
 
-## 安装 Python 解释器
+## [安装 Python 解释器](./interpreter.md)
 
-如果你已经安装了较新的 Python 解释器，或者你将使用 Conda / Miniconda / Anaconda 等环境，可以跳过本节。
+!!! info "跳过此节"
 
+	如果你已经安装了较新的 Python 解释器，或者你将使用 Conda / Miniconda / Anaconda 等环境，可以跳过此节。
+
+## [配置 Python 包管理器](./package-manager.md)
