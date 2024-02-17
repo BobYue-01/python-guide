@@ -71,7 +71,7 @@ plugins:
       type: timeago
   - git-committers:
       repository: BobYue-01/py-intro
-      branch: main
+      branch: master
 
 markdown_extensions:
   - md_in_html
