@@ -1,14 +1,14 @@
 # 安装 Python 解释器
 
+!!! info "跳过本节"
+
+    如果你已经安装了较新的 Python 解释器，或者你将使用 Conda / Miniconda / Anaconda 等环境，可以跳过本节。
+
 !!! abstract "关于本节"
 
     Python 是一门[解释型语言](https://en.wikipedia.org/wiki/Interpreter_(computing))，我们需要安装 Python 解释器来执行 Python 代码。
 
     本节指导安装 Python 最新发行版的官方解释器。
-
-!!! info "跳过本节"
-
-    如果你已经安装了较新的 Python 解释器，或者你将使用 Conda / Miniconda / Anaconda 等环境，可以跳过此节。
 
 ## 下载
 
@@ -16,10 +16,10 @@
 
     <div class="annotate" markdown>
 
-    1. 打开 [Python 官网](https://www.python.org/downloads/windows/)；
+    1. 打开 [Python Releases for Windows | Python.org](https://www.python.org/downloads/windows/)；
     2. 点击 `Python Releases for Windows` 下方的 `Latest Python 3 Release - Python 3.x.y`；
-    3. 滚动至页面底部，在 `Files` 下方的表格中，点击 `Windows installer (64-bit)` (1) ；
-    4. 此时浏览器将会创建一个下载任务。
+    3. 滚动至页面底部，在 `Files` 下方的表格中，点击 `Windows installer (64-bit)`；(1)
+    4. 此时浏览器将会创建文件名为 `python-3.x.y-amd64.exe` 的下载任务。
 
     </div>
 
@@ -57,13 +57,24 @@
 
 === "Windows"
 
-    1. 打开命令提示符或 PowerShell 等终端；
-        - 按下 ++win+r++，输入 `cmd`，按下回车。
-    2. 输入 `python --version`；
-    3. 如果输出 `Python 3.x.y`，则安装成功。
+    打开命令提示符(1) 或 PowerShell(2) 等终端，输入并执行以下命令：
+    { .annotate }
+
+    1. 通过 ++win+r++ 唤起「运行」，输入 `cmd`。
+    2. 通过 ++win+r++ 唤起「运行」，输入 `powershell`。
+
+    ``` bash
+    python --version
+    ```
+
+    如果输出 `Python 3.x.y`，则安装成功。
 
 === "Linux"
 
-    1. 打开终端；
-    2. 输入 `python3 --version`；
-    3. 如果输出 `Python 3.x.y`，则安装成功。
+    打开终端，输入并执行以下命令：
+
+    ``` bash
+    python3 --version
+    ```
+
+    如果输出 `Python 3.x.y`，则安装成功。

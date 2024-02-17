@@ -51,7 +51,7 @@ nav:
       - doc/env/index.md
       - 安装解释器: doc/env/interpreter.md
       - 配置包管理器: doc/env/package-manager.md
-      - 选择编辑器: doc/env/editor.md
+      - 选择 IDE: doc/env/ide.md
       - 配置 Jupyter: doc/env/jupyter.md
     - 基本语法:
       - 差异速览: doc/syntax/diff.md
@@ -70,12 +70,16 @@ plugins:
   - git-revision-date-localized:
       type: timeago
   - git-committers:
+      enabled: !ENV [CI, false]
       repository: BobYue-01/py-intro
       branch: master
 
 markdown_extensions:
   - md_in_html
   - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.tabbed:
@@ -88,10 +92,8 @@ markdown_extensions:
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
-  - src/css/custom.css
 
 extra_javascript:
   - src/javascripts/katex.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
-  - src/javascripts/custom.js
