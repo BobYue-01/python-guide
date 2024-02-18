@@ -40,9 +40,9 @@ theme:
     edit: material/pencil
     view: material/eye
 
-repo_url: https://github.com/BobYue-01/py-intro
-repo_name: py-intro
-edit_uri: edit/main/docs/
+repo_url: https://github.com/BobYue-01/python-guide
+repo_name: python-guide
+edit_uri: edit/master/docs/
 
 nav:
   - 文档:
@@ -73,7 +73,7 @@ plugins:
       type: timeago
   - git-committers:
       enabled: !ENV [CI, false]
-      repository: BobYue-01/py-intro
+      repository: BobYue-01/python-guide
       branch: master
 
 markdown_extensions:

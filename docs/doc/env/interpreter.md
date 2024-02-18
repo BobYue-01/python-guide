@@ -53,7 +53,7 @@
 
         如有特殊需求，请参阅[官方文档](https://docs.python.org/3/using/unix.html)。
 
-## :material-check: 验证
+## :material-check-outline: 验证
 
 === "Windows"
 
