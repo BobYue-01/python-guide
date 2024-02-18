@@ -10,7 +10,7 @@
 
     本节指导安装 Python 最新发行版的官方解释器。
 
-## 下载
+## :material-download-outline: 下载
 
 === "Windows"
 
@@ -34,7 +34,7 @@
 
         如有特殊需求，请参阅[官方文档](https://docs.python.org/3/using/unix.html)。
 
-## 安装
+## :material-package-variant: 安装
 
 === "Windows"
 
@@ -53,7 +53,7 @@
 
         如有特殊需求，请参阅[官方文档](https://docs.python.org/3/using/unix.html)。
 
-## 验证
+## :material-check: 验证
 
 === "Windows"
 

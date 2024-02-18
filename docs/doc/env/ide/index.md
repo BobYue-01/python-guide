@@ -19,7 +19,13 @@
 
 ## :simple-visualstudiocode: Visual Studio Code
 
-Visual Studio Code 是由微软开发的一款轻量级的现代化代码编辑器。它支持多种编程语言，包括 Python。
+Visual Studio Code 是由微软开发的一款轻量级的现代化代码编辑器。它支持包括 Python 在内的多种编程语言。
+
+它开源免费，资源占用较少，启动快，简单易上手，适合初学者使用。
+
+本教程后续的相关 IDE 配置将以 Visual Studio Code 为主。
+
+[配置 :simple-visualstudiocode: Visual Studio Code](./vscode.md)
 
 ## :simple-pycharm: PyCharm
 
