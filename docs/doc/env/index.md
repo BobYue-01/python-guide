@@ -13,3 +13,5 @@
     如果你已经安装了较新的 Python 解释器，或者你将使用 Conda / Miniconda / Anaconda 等环境，可以跳过此节。
 
 ## [配置 Python 包管理器](./package-manager.md)
+
+## [选择并配置集成开发环境 (IDE)](./ide.md)

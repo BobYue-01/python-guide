@@ -16,7 +16,7 @@
 
     <div class="annotate" markdown>
 
-    1. 打开 [Python Releases for Windows | Python.org](https://www.python.org/downloads/windows/)；
+    1. 访问 [Python Releases for Windows | Python.org](https://www.python.org/downloads/windows/)；
     2. 点击 `Python Releases for Windows` 下方的 `Latest Python 3 Release - Python 3.x.y`；
     3. 滚动至页面底部，在 `Files` 下方的表格中，点击 `Windows installer (64-bit)`；(1)
     4. 此时浏览器将会创建文件名为 `python-3.x.y-amd64.exe` 的下载任务。
@@ -42,7 +42,7 @@
     2. 勾选下方的 `Add python.exe to PATH` 选项；
     3. 点击 `Install Now`；
     4. 等待安装完成；
-    5. （建议）点击 `Disable path length limit`；
+    5. (建议) 点击 `Disable path length limit`；
     6. 点击 `Close`。
 
 === "Linux"

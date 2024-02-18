@@ -51,8 +51,10 @@ nav:
       - doc/env/index.md
       - 安装解释器: doc/env/interpreter.md
       - 配置包管理器: doc/env/package-manager.md
-      - 选择 IDE: doc/env/ide.md
-      - 配置 Jupyter: doc/env/jupyter.md
+      - 选择并配置 IDE:
+        - doc/env/ide/index.md
+        - 配置 VSCode: doc/env/ide/vscode.md
+        - 配置 PyCharm: doc/env/ide/pycharm.md
     - 基本语法:
       - 差异速览: doc/syntax/diff.md
       - 数据类型: doc/syntax/data-type.md
@@ -87,6 +89,10 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - admonition
   - footnotes
 
