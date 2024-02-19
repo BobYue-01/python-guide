@@ -58,7 +58,7 @@ nav:
     - 基本语法:
       - doc/syntax/index.md
       - 差异速览: doc/syntax/difference.md
-      - 数据类型: doc/syntax/data-type.md
+      - 内置类型: doc/syntax/stdtypes.md
       - 高级特性: doc/syntax/advanced.md
     - 面向对象:
       - 类与对象: doc/oop/class.md

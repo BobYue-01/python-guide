@@ -7,12 +7,11 @@
 :   变量不需要声明类型，Python 会根据赋值自动推断变量类型，且可以随时自动转换。
 
     ``` python
-    >>> a = 1; type(a)  # 变量 a 被赋值为整数 1
-    <class 'int'>
-    >>> a /= 2; a       # / 是除法运算符，返回浮点数
-    0.5
-    >>> type(a)         # 变量 a 的类型变为浮点数
-    <class 'float'>
+    a = 1           # 变量 a 被赋值为整数 1
+    print(type(a))      # 当前变量 a 的类型: <class 'int'>
+    a /= 2          # / 是除法运算符，返回浮点数
+    print(a)            # 当前变量 a 的值: 0.5
+    print(type(a))      # 当前变量 a 的类型: <class 'float'>
     ```
 
 **缩进控制作用域**
