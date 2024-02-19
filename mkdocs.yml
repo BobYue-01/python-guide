@@ -8,14 +8,14 @@ theme:
   #   text: Noto Serif SC
   palette:
     - scheme: default
-      primary: indigo
-      accent: orange
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: 切换到夜间模式
     - scheme: slate
-      primary: indigo
-      accent: yellow
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: 切换到日间模式
@@ -56,7 +56,8 @@ nav:
         - 配置 VSCode: doc/env/ide/vscode.md
         - 配置 PyCharm: doc/env/ide/pycharm.md
     - 基本语法:
-      - 差异速览: doc/syntax/diff.md
+      - doc/syntax/index.md
+      - 差异速览: doc/syntax/difference.md
       - 数据类型: doc/syntax/data-type.md
       - 高级特性: doc/syntax/advanced.md
     - 面向对象:
@@ -79,6 +80,7 @@ plugins:
 markdown_extensions:
   - md_in_html
   - attr_list
+  - def_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -98,6 +100,7 @@ markdown_extensions:
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - src/stylesheets/extra.css
 
 extra_javascript:
   - src/javascripts/katex.js

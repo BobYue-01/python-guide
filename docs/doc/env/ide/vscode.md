@@ -9,7 +9,7 @@
 <div class="annotate" markdown>
 
 1. 在 Visual Studio Code 中按下 ++ctrl+shift+x++，以显示扩展 (Extentions) 视图；
-2. 搜索 `Chinese`，找到名为 `Chinese (Simplified) Language Pack for Visual Studio Code` 的扩展（它通常位于结果的第一位，同时请确保其发布者是经过认证的 [Microsoft](https://microsoft.com)）；
+2. 搜索 `Chinese`，找到名为 `Chinese (Simplified) Language Pack for Visual Studio Code` 的扩展（发布者是经过认证的 [Microsoft](https://microsoft.com)，通常位于结果的第一位）；
 3. 点击该项右侧的 `Install` 安装；
 4. 查看 Visual Studio Code 窗口右下角含有如下内容的通知(1)；
    > Would you like to change Visual Studio Code's display language to Chinese Simplified and restart?
@@ -22,11 +22,11 @@
 ## :simple-python: 安装 Python 扩展
 
 1. 在 Visual Studio Code 中按下 ++ctrl+shift+x++，以显示扩展 (Extentions) 视图；
-2. 搜索 `Python`，找到名为 `Python` 的扩展（它通常位于结果的第一位，同时请确保其发布者是经过认证的 [Microsoft](https://microsoft.com)）；
+2. 搜索 `Python`，找到名为 `Python` 的扩展（发布者是经过认证的 [Microsoft](https://microsoft.com)，通常位于结果的第一位）；
 3. 点击该项右侧的 `安装`。
 
 ## :simple-jupyter: 安装 Jupyter 扩展
 
 1. 在 Visual Studio Code 中按下 ++ctrl+shift+x++，以显示扩展 (Extentions) 视图；
-2. 搜索 `Jupyter`，找到名为 `Jupyter` 的扩展（它通常位于结果的第一位，同时请确保其发布者是经过认证的 [Microsoft](https://microsoft.com)）；
+2. 搜索 `Jupyter`，找到名为 `Jupyter` 的扩展（发布者是经过认证的 [Microsoft](https://microsoft.com)，通常位于结果的第一位）；
 3. 点击该项右侧的 `安装`。
