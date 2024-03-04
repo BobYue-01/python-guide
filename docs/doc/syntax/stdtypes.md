@@ -2,15 +2,21 @@
 
 !!! tip "官方教程"
 
-    请参阅 Python 官方教程 [Python 速览](https://docs.python.org/zh-cn/3/tutorial/introduction.html)。
+    请参阅 [Python 教程 » 3. Python 速览](https://docs.python.org/zh-cn/3/tutorial/introduction.html)。
 
-    你大约需要 10 分钟来阅读上述内容。本页面仅用以补充及强调要点。
+    你大约需要 10 分钟来阅读上述内容。本页面仅提供深入补充知识。
 
-## [数字 (`numbers.Number`)](https://docs.python.org/zh-cn/3/reference/datamodel.html#numbers-number)
+## [数字类型 (`numbers.Number`)](https://docs.python.org/zh-cn/3/reference/datamodel.html#numbers-number)
 
-### 整型 (`int`)
+!!! info "官方文档"
 
-在 Python 中，整型可表示任意大小的数字，仅受限于可用的内存 (包括虚拟内存)。
+    关于数字类型的完整用法，见 [Python 标准库 » 内置类型](https://docs.python.org/zh-cn/3/library/stdtypes.html#numeric-types-int-float-complex)。
+
+    关于数字类型的实现细节，见 [Python 语言参考手册 » 3. 数据模型](https://docs.python.org/zh-cn/3/reference/datamodel.html#numbers-number)。
+
+### 整数 (`int`)
+
+在 Python 中，整数可表示任意大小的数字，仅受限于可用的内存 (包括虚拟内存)。这是因为 Python 的整数是对象 (object)，而不是原生的机器级整型。当整数的值超出机器级整型的取值范围时，Python 会自动采用 [`long` 类型](https://github.com/python/cpython/blob/main/Include/cpython/longintrepr.h)来存储。<!-- 严谨性待审查 -->
 
 ``` python
 a = 1234567890123456789012345678901234567890

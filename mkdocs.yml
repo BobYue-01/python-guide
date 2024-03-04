@@ -45,10 +45,18 @@ repo_name: python-guide
 edit_uri: edit/master/docs/
 
 nav:
+  - 主页: index.md
+  - 教程:
+    - guide/index.md
+    - Day 0 - 部署环境: guide/0-env.md
+    - Day 1 - 基本语法: guide/1-syntax.md
+    - Day 2 - 高级特性: guide/2-advanced.md
+    - Day 3 - 面向对象: guide/3-oop.md
   - 文档:
     - doc/index.md
-    - 环境准备:
+    - 部署环境:
       - doc/env/index.md
+      - 了解终端: doc/env/terminal.md
       - 安装解释器: doc/env/interpreter.md
       - 配置包管理器: doc/env/package-manager.md
       - 选择并配置 IDE:
@@ -63,7 +71,6 @@ nav:
     - 面向对象:
       - 类与对象: doc/oop/class.md
       - 继承与多态: doc/oop/inheritance.md
-  - 关于: index.md
 
 plugins:
   # - tags:
@@ -100,9 +107,11 @@ markdown_extensions:
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - src/stylesheets/material.css
   - src/stylesheets/extra.css
 
 extra_javascript:
   - src/javascripts/katex.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - src/javascripts/material.js
