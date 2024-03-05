@@ -78,8 +78,9 @@ print(a)         # 1524157875323883675049535156256668194500533455762536198787501
 字符串是不可变的序列。字符串是 Unicode 字符的序列，而不是字节 (`bytes`，仅支持 0~255 的 ASCII 码) 的序列。
 
 ``` python
-s = 'Hello, world!'
+s = 'Hello, world! 你好，世界！'
 print(s[0])  # 'H'
+print(s[-2]) # '界'
 s[0] = 'h'   # TypeError: 'str' object does not support item assignment
 ```
 
