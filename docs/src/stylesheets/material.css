@@ -8016,6 +8016,7 @@ input.mdl-button[type="submit"] {
   height: 16px;
   margin: 0;
   cursor: pointer;
+  transition-duration: 0.28s;
   border: 2px solid rgba(0,0,0, 0.54);
   border-radius: 50%;
   z-index: 2; }
@@ -8065,11 +8066,11 @@ input.mdl-button[type="submit"] {
 .mdl-radio__ripple-container {
   position: absolute;
   z-index: 2;
-  top: -9px;
-  left: -13px;
+  top: -4px;
+  left: -8px;
   box-sizing: border-box;
-  width: 42px;
-  height: 42px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   cursor: pointer;
   overflow: hidden;
@@ -10345,7 +10346,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   font-size: 14px;
   padding: 16px; }
 
-@-webkit-keyframes pulse {
+/* @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(0);
             transform: scale(0);
@@ -10371,7 +10372,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
-    visibility: visible; } }
+    visibility: visible; } } */
 
 /**
  * Copyright 2015 Google Inc. All Rights Reserved.

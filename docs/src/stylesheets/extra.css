@@ -21,9 +21,27 @@
   color: var(--md-default-bg-color);
 }
 
+.md-typeset .md-button:hover {
+  color: var(--md-default-bg-color);
+}
+
 /* .md-typeset .admonition {
   font-size: .8rem;
 } */
+
+.md-typeset .admonition.question, .md-typeset details.question {
+  font-size: .75rem;
+  border-width: 0;
+  border-color: #63dd1780;
+  border-left-width: 3px;
+}
+
+.md-typeset .admonition.tip {
+  font-size: .75rem;
+  border-width: 0;
+  border-color: #00bfa580;
+  border-left-width: 3px;
+}
 
 .mdl-radio {
   font-size: 1em;

@@ -25,7 +25,7 @@ Visual Studio Code 是由微软开发的一款轻量级的现代化代码编辑�
 
 本教程后续的相关 IDE 配置将以 Visual Studio Code 为主。
 
-[配置 :simple-visualstudiocode: Visual Studio Code](./vscode.md)
+[配置 :simple-visualstudiocode: Visual Studio Code](./vscode.md){ .md-button }
 
 ## :simple-pycharm: PyCharm
 

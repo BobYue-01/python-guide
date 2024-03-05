@@ -49,9 +49,10 @@ nav:
   - 教程:
     - guide/index.md
     - Day 0 - 部署环境: guide/0-env.md
-    - Day 1 - 基本语法: guide/1-syntax.md
-    - Day 2 - 高级特性: guide/2-advanced.md
-    - Day 3 - 面向对象: guide/3-oop.md
+    - Day 1 - 内置类型: guide/1-stdtypes.md
+    - Day 2 - 流程控制: guide/2-flow.md
+    - Day 3 - 高级特性: guide/2-advanced.md
+    - Day 4 - 面向对象: guide/3-oop.md
   - 文档:
     - doc/index.md
     - 部署环境:
@@ -65,8 +66,8 @@ nav:
         - 配置 PyCharm: doc/env/ide/pycharm.md
     - 基本语法:
       - doc/syntax/index.md
-      - 差异速览: doc/syntax/difference.md
       - 内置类型: doc/syntax/stdtypes.md
+      - 流程控制: doc/syntax/flow.md
       - 高级特性: doc/syntax/advanced.md
     - 面向对象:
       - 类与对象: doc/oop/class.md
