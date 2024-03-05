@@ -18,7 +18,7 @@ title: Day 0：部署环境
 
 !!! tip "文档"
 
-    请花费约 5 分钟阅读[**了解终端**](../doc/env/terminal.md)。
+    请花费约 5 分钟阅读[**了解终端**](../doc/env/terminal.md){target="_blank"}。
 
 !!! question "小测：终端"
 
@@ -61,7 +61,7 @@ title: Day 0：部署环境
 
 !!! tip "文档"
 
-    请花费约 5 分钟阅读[**安装 Python 解释器**](../doc/env/interpreter.md)。
+    请花费约 5 分钟阅读[**安装 Python 解释器**](../doc/env/interpreter.md){target="_blank"}。
 
 !!! question "小测：交互式命令行"
 
@@ -114,7 +114,7 @@ title: Day 0：部署环境
 
 !!! tip "文档"
 
-    请花费约 5 分钟阅读[**选择并配置集成开发环境 (IDE)**](../doc/env/ide/index.md)。
+    请花费约 5 分钟阅读[**选择并配置集成开发环境 (IDE)**](../doc/env/ide/index.md){target="_blank"}。
 
 !!! question "小测：IDE"
 

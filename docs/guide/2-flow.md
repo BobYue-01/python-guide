@@ -10,7 +10,7 @@ title: Day 2：流程控制
 
 !!! tip "文档"
 
-    请花费约 15 分钟阅读[**流程控制**](../doc/syntax/flow.md)。
+    请花费约 15 分钟阅读[**流程控制**](../doc/syntax/flow.md){target="_blank"}。
 
 !!! question "小测：条件语句"
 
@@ -36,7 +36,7 @@ title: Day 2：流程控制
 
 !!! question "小测：列表推导式"
 
-    请使用 Python 的[嵌套列表](https://docs.python.org/zh-cn/3/tutorial/introduction.html#lists:~:text=%E8%BF%98%E5%8F%AF%E4%BB%A5-,%E5%B5%8C%E5%A5%97%E5%88%97%E8%A1%A8,-%EF%BC%88%E5%88%9B%E5%BB%BA%E5%8C%85%E5%90%AB%E5%85%B6%E4%BB%96)生成一个 $10\times 10$ 的矩阵，其中矩阵的每个元素为其行列索引的积。
+    请使用 Python 的[嵌套列表](https://docs.python.org/zh-cn/3/tutorial/introduction.html#lists:~:text=%E8%BF%98%E5%8F%AF%E4%BB%A5-,%E5%B5%8C%E5%A5%97%E5%88%97%E8%A1%A8,-%EF%BC%88%E5%88%9B%E5%BB%BA%E5%8C%85%E5%90%AB%E5%85%B6%E4%BB%96){target="_blank"}生成一个 $10\times 10$ 的矩阵，其中矩阵的每个元素为其行列索引的积。
 
     即：
     $$

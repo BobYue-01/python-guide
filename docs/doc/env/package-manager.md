@@ -26,7 +26,7 @@ pip --version
 
 ### 安装
 
-访问 [Conda Documentation](https://docs.conda.io/projects/conda/en/stable/)，选择对应系统的安装指南进行安装。
+访问 [Conda Documentation](https://docs.conda.io/projects/conda/en/stable/){target="_blank"}，选择对应系统的安装指南进行安装。
 
 ### 验证
 

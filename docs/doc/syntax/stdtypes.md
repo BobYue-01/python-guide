@@ -2,21 +2,21 @@
 
 !!! tip "官方教程：数字、文本、列表"
 
-    请参阅 [**Python 教程 » 3. Python 速览**](https://docs.python.org/zh-cn/3/tutorial/introduction.html)。
+    请参阅 [**Python 教程 » 3. Python 速览**](https://docs.python.org/zh-cn/3/tutorial/introduction.html){target="_blank"}。
 
     你大约需要 10 分钟来阅读上述内容。
 
-## [数字类型](https://docs.python.org/zh-cn/3/library/stdtypes.html#numeric-types-int-float-complex)
+## [数字类型](https://docs.python.org/zh-cn/3/library/stdtypes.html#numeric-types-int-float-complex){target="_blank"}
 
 ??? info "官方文档"
 
-    关于数字类型的完整用法，见 [**Python 标准库 » 内置类型 » 数字类型**](https://docs.python.org/zh-cn/3/library/stdtypes.html#numeric-types-int-float-complex)。
+    关于数字类型的完整用法，见 [**Python 标准库 » 内置类型 » 数字类型**](https://docs.python.org/zh-cn/3/library/stdtypes.html#numeric-types-int-float-complex){target="_blank"}。
 
-    关于数字类型的实现细节，见 [**Python 语言参考手册 » 3. 数据模型 » 3.2.4. `numbers.Number`**](https://docs.python.org/zh-cn/3/reference/datamodel.html#numbers-number)。
+    关于数字类型的实现细节，见 [**Python 语言参考手册 » 3. 数据模型 » 3.2.4. `numbers.Number`**](https://docs.python.org/zh-cn/3/reference/datamodel.html#numbers-number){target="_blank"}。
 
 ### 整数 (`int`)
 
-在 Python 中，整数可表示任意大小的数字，仅受限于可用的内存 (包括虚拟内存)。这是因为 Python 的整数是对象 (object)，而不是原生的机器级整型。当整数的值超出机器级整型的取值范围时，Python 会自动采用 [`long` 类型](https://github.com/python/cpython/blob/main/Include/cpython/longintrepr.h)来存储。<!-- 严谨性待审查 -->
+在 Python 中，整数可表示任意大小的数字，仅受限于可用的内存 (包括虚拟内存)。这是因为 Python 的整数是对象 (object)，而不是原生的机器级整型。当整数的值超出机器级整型的取值范围时，Python 会自动采用 [`long` 类型](https://github.com/python/cpython/blob/main/Include/cpython/longintrepr.h){target="_blank"}来存储。<!-- 严谨性待审查 -->
 
 ``` python
 a = 1234567890123456789012345678901234567890
@@ -73,7 +73,7 @@ print(a)         # 1524157875323883675049535156256668194500533455762536198787501
     ```
     -->
 
-## [字符串 (`str`)](https://docs.python.org/zh-cn/3/library/stdtypes.html#textseq)
+## [字符串 (`str`)](https://docs.python.org/zh-cn/3/library/stdtypes.html#textseq){target="_blank"}
 
 字符串是不可变的序列。字符串是 Unicode 字符的序列，而不是字节 (`bytes`，仅支持 0~255 的 ASCII 码) 的序列。
 
@@ -89,7 +89,7 @@ s[0] = 'h'   # TypeError: 'str' object does not support item assignment
 
 !!! tip "官方教程：`f-string`"
 
-    请参阅 [**Python 教程 » 7. 输入和输出 » 7.1.1. 格式化字符串字面值**](https://docs.python.org/zh-cn/3/reference/lexical_analysis.html#f-strings)。
+    请参阅 [**Python 教程 » 7. 输入和输出 » 7.1.1. 格式化字符串字面值**](https://docs.python.org/zh-cn/3/reference/lexical_analysis.html#f-strings){target="_blank"}。
 
     你大约需要 5 分钟来阅读上述内容。
 
@@ -111,7 +111,7 @@ s[0] = 'h'   # TypeError: 'str' object does not support item assignment
     ```
     -->
 
-## [列表 (`list`)](https://docs.python.org/zh-cn/3/library/stdtypes.html#lists)
+## [列表 (`list`)](https://docs.python.org/zh-cn/3/library/stdtypes.html#lists){target="_blank"}
 
 Python 中的简单赋值永远不会复制数据。当你将一个列表赋值给一个变量时，该变量引用现有列表。通过一个变量对列表所做的任何更改都将通过所有引用它的其他变量看到。
 
@@ -143,17 +143,17 @@ print(rgb)           # ["Red", "Green", "Blue", "Alph"]
     ```
     -->
 
-## [元组 (`tuple`)](https://docs.python.org/zh-cn/3/library/stdtypes.html#tuples)
+## [元组 (`tuple`)](https://docs.python.org/zh-cn/3/library/stdtypes.html#tuples){target="_blank"}
 
 !!! tip "官方教程：元组"
 
-    请参阅 [**Python 教程 » 5. 数据结构 » 5.3. 元组和序列**](https://docs.python.org/zh-cn/3/tutorial/datastructures.html#tuples-and-sequences)。
+    请参阅 [**Python 教程 » 5. 数据结构 » 5.3. 元组和序列**](https://docs.python.org/zh-cn/3/tutorial/datastructures.html#tuples-and-sequences){target="_blank"}。
 
-## [字典 (`dict`)](https://docs.python.org/zh-cn/3/library/stdtypes.html#mapping-types-dict)
+## [字典 (`dict`)](https://docs.python.org/zh-cn/3/library/stdtypes.html#mapping-types-dict){target="_blank"}
 
 !!! tip "官方教程：字典"
 
-    请参阅 [**Python 教程 » 5. 数据结构 » 5.5. 字典**](https://docs.python.org/zh-cn/3/tutorial/datastructures.html#dictionaries)。
+    请参阅 [**Python 教程 » 5. 数据结构 » 5.5. 字典**](https://docs.python.org/zh-cn/3/tutorial/datastructures.html#dictionaries){target="_blank"}。
 
 ??? question "小测：字典"
 

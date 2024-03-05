@@ -10,7 +10,7 @@ title: Day 1：内置类型
 
 !!! tip "文档"
 
-    请花费约 15 分钟阅读[**内置类型**](../doc/syntax/stdtypes.md)。
+    请花费约 15 分钟阅读[**内置类型**](../doc/syntax/stdtypes.md){target="_blank"}。
 
 !!! question "小测：字符串格式化"
 

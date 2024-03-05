@@ -22,7 +22,7 @@
 
     在 Windows 11 中，你唤起的通常是 Windows Terminal，它集成了命令提示符、PowerShell，是一个更加美观、强大的终端工具。
 
-    如果你当前使用的是 Windows 10，你可以通过 [Microsoft Store](https://apps.microsoft.com/detail/9n0dx20hk701) 下载安装。
+    如果你当前使用的是 Windows 10，你可以通过 [Microsoft Store](https://apps.microsoft.com/detail/9n0dx20hk701){target="_blank"} 下载安装。
 
 === "Linux"
 
