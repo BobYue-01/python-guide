@@ -2,7 +2,7 @@
 title: Day 1：内置类型
 ---
 
-# Day 1<br>**内置类型**
+# Day 1<br>**内置类型**<p style="font-size: 0.5em"> :material-timer-sand: 预计阅读时间：30 分钟 </p>
 
 !!! abstract "关于本章"
 
@@ -10,7 +10,10 @@ title: Day 1：内置类型
 
 !!! tip "文档"
 
-    请花费约 15 分钟阅读[**内置类型**](../doc/syntax/stdtypes.md){target="_blank"}。
+    请阅读[**内置类型**](../doc/syntax/stdtypes.md){target="_blank"}。
+
+    :material-timer-sand: 预计阅读时间：25 分钟
+    {style="font-size: 0.8em"}
 
 !!! question "小测：内置类型综合应用"
 

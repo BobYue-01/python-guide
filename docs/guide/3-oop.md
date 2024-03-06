@@ -1,8 +1,8 @@
 ---
-title: Day 4：面向对象
+title: Day 3：面向对象
 ---
 
-# Day 4<br>**面向对象**
+# Day 3<br>**面向对象**<p style="font-size: 0.5em"> :material-timer-sand: 预计阅读时间：30 分钟 </p>
 
 !!! abstract "关于本章"
 

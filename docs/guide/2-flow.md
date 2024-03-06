@@ -2,7 +2,7 @@
 title: Day 2：流程控制
 ---
 
-# Day 2<br>**流程控制**
+# Day 2<br>**流程控制**<p style="font-size: 0.5em"> :material-timer-sand: 预计阅读时间：30 分钟 </p>
 
 !!! abstract "关于本章"
 
@@ -10,7 +10,10 @@ title: Day 2：流程控制
 
 !!! tip "文档"
 
-    请花费约 15 分钟阅读[**流程控制**](../doc/syntax/flow.md){target="_blank"}。
+    请阅读[**流程控制**](../doc/syntax/flow.md){target="_blank"}。
+
+    :material-timer-sand: 预计阅读时间：20 分钟
+    {style="font-size: 0.8em"}
 
 !!! question "小测：条件语句"
 

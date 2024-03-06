@@ -4,7 +4,8 @@
 
     请参阅 [**Python 教程 » 3. Python 速览**](https://docs.python.org/zh-cn/3/tutorial/introduction.html){target="_blank"}。
 
-    你大约需要 10 分钟来阅读上述内容。
+    :material-timer-sand: 预计阅读时间：5 分钟
+    {style="font-size: 0.8em"}
 
 ## [数字类型](https://docs.python.org/zh-cn/3/library/stdtypes.html#numeric-types-int-float-complex){target="_blank"}
 
@@ -92,7 +93,8 @@ s[0] = 'h'   # TypeError: 'str' object does not support item assignment
 
     请参阅 [**Python 教程 » 7. 输入和输出 » 7.1.1. 格式化字符串字面值**](https://docs.python.org/zh-cn/3/reference/lexical_analysis.html#f-strings){target="_blank"}。
 
-    你大约需要 5 分钟来阅读上述内容。
+    :material-timer-sand: 预计阅读时间：5 分钟
+    {style="font-size: 0.8em"}
 
 ??? question "小测：字符串格式化"
 
@@ -150,11 +152,17 @@ print(rgb)           # ["Red", "Green", "Blue", "Alph"]
 
     请参阅 [**Python 教程 » 5. 数据结构 » 5.3. 元组和序列**](https://docs.python.org/zh-cn/3/tutorial/datastructures.html#tuples-and-sequences){target="_blank"}。
 
+    :material-timer-sand: 预计阅读时间：5 分钟
+    {style="font-size: 0.8em"}
+
 ## [字典 (`dict`)](https://docs.python.org/zh-cn/3/library/stdtypes.html#mapping-types-dict){target="_blank"}
 
 !!! tip "官方教程：字典"
 
     请参阅 [**Python 教程 » 5. 数据结构 » 5.5. 字典**](https://docs.python.org/zh-cn/3/tutorial/datastructures.html#dictionaries){target="_blank"}。
+
+    :material-timer-sand: 预计阅读时间：5 分钟
+    {style="font-size: 0.8em"}
 
 ??? question "小测：字典"
 
