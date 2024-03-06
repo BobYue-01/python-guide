@@ -39,6 +39,7 @@ theme:
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
+  custom_dir: overrides
 
 repo_url: https://github.com/BobYue-01/python-guide
 repo_name: python-guide
