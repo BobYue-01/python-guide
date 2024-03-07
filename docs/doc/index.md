@@ -10,3 +10,7 @@
 2. [Python 基础语法](./syntax/index.md)
     1. [内置类型](./syntax/stdtypes.md)
     2. [流程控制](./syntax/flow.md)
+3. [面向对象](./oop/index.md)
+    1. [作用域与命名空间](./oop/scope.md)
+    2. [类与对象](./oop/class.md)
+    3. [继承与多态](./oop/inheritance.md)
