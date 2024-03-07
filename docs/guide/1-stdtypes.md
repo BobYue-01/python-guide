@@ -35,10 +35,10 @@ title: Day 1：内置类型
     请输出这些评估指标的最新值。格式如下：
 
     ``` plain
-    准确率：0.94
-    精确率：0.89
-    召回率：0.84
-    F1 值：0.79
+    准确率：94 %
+    精确率：89 %
+    召回率：84 %
+    F1 值：79 %
     ```
 
     提示：可以使用 `zip` 函数将两个列表打包成元组。
@@ -51,6 +51,6 @@ title: Day 1：内置类型
     <!--
     ``` python
     for name_en, name_ch in zip(metric_names_en, metric_names_ch):
-        print(f'{name_ch}：{metrics[name_en][-1]}')
+        print(f'{name_ch}：{metrics[name_en][-1] * 100:.0f} %')
     ```
     -->
