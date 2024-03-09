@@ -1,4 +1,9 @@
-# 类与对象
+---
+title: 类与对象
+icon: material/cube-outline
+---
+
+# :material-cube-outline:<br>类与对象
 
 !!! tip "官方教程"
 

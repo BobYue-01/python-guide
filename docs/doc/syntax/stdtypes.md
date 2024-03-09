@@ -1,4 +1,9 @@
-# 内置类型
+---
+title: 内置类型
+icon: material/numeric
+---
+
+# :material-numeric:<br>内置类型
 
 !!! tip "官方教程：数字、文本、列表"
 

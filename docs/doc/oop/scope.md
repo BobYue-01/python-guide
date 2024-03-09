@@ -1,4 +1,9 @@
-# 作用域与命名空间
+---
+title: 作用域与命名空间
+icon: material/variable
+---
+
+# :material-variable:<br>作用域与命名空间
 
 !!! tip "官方教程"
 

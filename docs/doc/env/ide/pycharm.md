@@ -1,4 +1,9 @@
-# 配置 :simple-pycharm: PyCharm
+---
+title: 配置 PyCharm
+icon: simple/pycharm
+---
+
+# :simple-pycharm:<br>配置 PyCharm
 
 ## :material-download-outline: 安装 PyCharm
 

@@ -1,4 +1,9 @@
-# 了解终端 (命令行界面, CLI)
+---
+title: 了解终端
+icon: material/console
+---
+
+# :material-console:<br>了解终端 (命令行界面, CLI)
 
 !!! abstract "关于本节"
 

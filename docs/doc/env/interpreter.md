@@ -1,4 +1,9 @@
-# 安装 Python 解释器
+---
+title: 安装 Python 解释器
+icon: material/download-box
+---
+
+# :material-download-box:<br>安装 Python 解释器
 
 !!! abstract "关于本节"
 

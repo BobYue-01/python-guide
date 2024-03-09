@@ -1,4 +1,9 @@
-# 选择并配置集成开发环境 (IDE)
+---
+title: 选择并配置集成开发环境 (IDE)
+icon: material/application-braces-outline
+---
+
+# :material-application-braces-outline:<br>选择并配置集成开发环境 (IDE)
 
 !!! abstract "关于本节"
 

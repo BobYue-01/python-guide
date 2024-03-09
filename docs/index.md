@@ -1,4 +1,11 @@
-# 主页
+---
+title: 主页
+icon: material/home
+hide:
+  - navigation
+---
+
+# :material-home:<br>主页
 
 !!! quote "关于本站"
 

@@ -1,4 +1,9 @@
-# 继承与多态
+---
+title: 继承与多态
+icon: material/call-split
+---
+
+# :material-call-split:<br>继承与多态
 
 !!! tip "官方教程"
 

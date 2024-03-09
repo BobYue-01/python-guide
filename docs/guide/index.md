@@ -1,4 +1,9 @@
-# 教程
+---
+title: 教程
+icon: material/map
+---
+
+# :material-map:<br>教程
 
 ## 差异速览
 

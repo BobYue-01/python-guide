@@ -1,4 +1,9 @@
-# 配置 Python 包管理器
+---
+title: 配置 Python 包管理器
+icon: material/package
+---
+
+# :material-package:<br>配置 Python 包管理器
 
 !!! abstract "关于本节"
 
