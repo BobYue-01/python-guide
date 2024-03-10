@@ -20,20 +20,20 @@ icon: material/numeric
 
     关于数字类型的实现细节，见 [**Python 语言参考手册 » 3. 数据模型 » 3.2.4. `numbers.Number`**](https://docs.python.org/zh-cn/3/reference/datamodel.html#numbers-number){target="_blank"}。
 
-### 整数 (`int`)
+**整数 (`int`)**
 
-在 Python 中，整数可表示任意大小的数字，仅受限于可用的内存 (包括虚拟内存)。这是因为 Python 的整数是对象 (object)，而不是原生的机器级整型。当整数的值超出机器级整型的取值范围时，Python 会自动采用 [`long` 类型](https://github.com/python/cpython/blob/main/Include/cpython/longintrepr.h){target="_blank"}来存储。<!-- 严谨性待审查 -->
+:   在 Python 中，整数可表示任意大小的数字，仅受限于可用的内存 (包括虚拟内存)。这是因为 Python 的整数是对象 (object)，而不是原生的机器级整型。当整数的值超出机器级整型的取值范围时，Python 会自动采用 [`long` 类型](https://github.com/python/cpython/blob/main/Include/cpython/longintrepr.h){target="_blank"}来存储。<!-- 严谨性待审查 -->
 
-``` python
-a = 1234567890123456789012345678901234567890
-print(a > 1e39)  # True
-a *= a
-print(a)         # 1524157875323883675049535156256668194500533455762536198787501905199875019052100
-```
+    ``` python
+    a = 1234567890123456789012345678901234567890
+    print(a > 1e39)  # True
+    a *= a
+    print(a)         # 1524157875323883675049535156256668194500533455762536198787501905199875019052100
+    ```
 
-### 浮点型 (`float`)
+**浮点型 (`float`)**
 
-在 Python 中，浮点型表示机器级的双精度浮点数。其所接受的取值范围和溢出处理将受制于底层的机器架构 (以及 C 或 Java 实现)。Python 不支持单精度浮点数；支持后者通常的理由是节省处理器和内存消耗，但这点节省相对于在 Python 中使用对象的开销来说太过微不足道，因此没有理由包含两种浮点数而令该语言变得复杂。
+:   在 Python 中，浮点型表示机器级的双精度浮点数。其所接受的取值范围和溢出处理将受制于底层的机器架构 (以及 C 或 Java 实现)。Python 不支持单精度浮点数；支持后者通常的理由是节省处理器和内存消耗，但这点节省相对于在 Python 中使用对象的开销来说太过微不足道，因此没有理由包含两种浮点数而令该语言变得复杂。
 
 ??? question "小测：数值计算"
 
@@ -89,8 +89,6 @@ print(s[0])  # 'H'
 print(s[-2]) # '界'
 s[0] = 'h'   # TypeError: 'str' object does not support item assignment
 ```
-
-### 字符串格式化
 
 在 Python 中，字符串格式化有多种方式。最简单的方式是使用 `%` 运算符。但是，更推荐使用更现代的 `f-string`。
 
@@ -159,6 +157,21 @@ print(rgb)           # ["Red", "Green", "Blue", "Alph"]
 
     :material-timer-sand: 预计阅读时间：5 分钟
     {style="font-size: 0.8em"}
+
+??? question "小测：多重赋值"
+
+    ``` python
+    a, (b, c), d = 1, (2, 3), (4, 5, 6)
+    ```
+
+    请问 `a`、`b`、`c` 和 `d` 的值分别是多少？
+
+    <!--
+    ``` python
+    a, (b, c), d = 1, (2, 3), (4, 5, 6)
+    print(a, b, c, d)  # 1 2 3 (4, 5, 6)
+    ```
+    -->
 
 ## [字典 (`dict`)](https://docs.python.org/zh-cn/3/library/stdtypes.html#mapping-types-dict){target="_blank"}
 

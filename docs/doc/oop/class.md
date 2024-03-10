@@ -7,12 +7,11 @@ icon: material/cube-outline
 
 !!! tip "官方教程"
 
-    请参阅 [**Python 教程 » 9. 类 » 9.3. 初探类**](https://docs.python.org/zh-cn/3/tutorial/classes.html#a-first-look-at-classes){target="_blank"}。
+    请参阅 [**Python 教程 » 9. 类 » 9.3. 初探类**](https://docs.python.org/zh-cn/3/tutorial/classes.html#a-first-look-at-classes){target="_blank"}。  
+    如果官方教程较为困难，请直接阅读本页面。
 
     :material-timer-sand: 预计阅读时间：10 分钟
     {style="font-size: 0.8em"}
-
-如果你暂时对类和对象的概念感到困惑，不用担心，这是一个普遍的现象。
 
 为了更好地理解类和对象，我们可以作如下类比：
 

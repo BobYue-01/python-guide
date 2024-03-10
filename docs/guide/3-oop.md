@@ -37,30 +37,30 @@ title: Day 3：面向对象
     ```
 
     <!--
-    - [ ] 10 20
-    - [ ] 20 20
-    - [ ] 20 10
-    - [ ] 10 10
+    - [ ] `10 20`
+    - [ ] `20 20`
+    - [ ] `20 10`
+    - [ ] `10 10`
     -->
 
     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
-      <input type="radio" id="quiz-3-0-option-0" class="mdl-radio__button" name="quiz-3-0" value="10 20">
-      <span class="mdl-radio__label">10 20</span>
+      <input type="radio" id="quiz-3-0-option-0" class="mdl-radio__button" name="quiz-3-0" value="`10 20`">
+      <span class="mdl-radio__label">`10 20`</span>
     </label>
     <br>
     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
-      <input type="radio" id="quiz-3-0-option-1" class="mdl-radio__button" name="quiz-3-0" value="20 20">
-      <span class="mdl-radio__label">20 20</span>
+      <input type="radio" id="quiz-3-0-option-1" class="mdl-radio__button" name="quiz-3-0" value="`20 20`">
+      <span class="mdl-radio__label">`20 20`</span>
     </label>
     <br>
     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
-      <input type="radio" id="quiz-3-0-option-2" class="mdl-radio__button" name="quiz-3-0" value="20 10">
-      <span class="mdl-radio__label">20 10</span>
+      <input type="radio" id="quiz-3-0-option-2" class="mdl-radio__button" name="quiz-3-0" value="`20 10`">
+      <span class="mdl-radio__label">`20 10`</span>
     </label>
     <br>
     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
-      <input type="radio" id="quiz-3-0-option-3" class="mdl-radio__button" name="quiz-3-0" value="10 10">
-      <span class="mdl-radio__label">10 10</span>
+      <input type="radio" id="quiz-3-0-option-3" class="mdl-radio__button" name="quiz-3-0" value="`10 10`">
+      <span class="mdl-radio__label">`10 10`</span>
     </label>
 
 ## 类与对象
@@ -97,36 +97,36 @@ title: Day 3：面向对象
         def forward(self, x) -> None:
             pass
 
-    model = MLP(hidden_size=1024)
+    model = MLP(hidden_size=512)
     ```
 
     请问，`model.weights` 的形状是什么？即 `len(model.weights[0])`，`len(model.weights[0][0])`，`len(model.weights[1])`，`len(model.weights[1][0])` 分别是多少？
 
     <!--
-    - [ ] 784, 256, 256, 10
-    - [ ] 784, 1024, 1024, 10
-    - [ ] 256, 784, 10, 256
-    - [ ] 1024, 784, 10, 1024
+    - [ ] `784, 256, 256, 10`
+    - [ ] `784, 512, 512, 10`
+    - [ ] `256, 784, 10, 256`
+    - [ ] `512, 784, 10, 512`
     -->
 
     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
-      <input type="radio" id="quiz-3-1-option-0" class="mdl-radio__button" name="quiz-3-1" value="784, 256, 256, 10">
-      <span class="mdl-radio__label">784, 256, 256, 10</span>
+      <input type="radio" id="quiz-3-1-option-0" class="mdl-radio__button" name="quiz-3-1" value="`784, 256, 256, 10`">
+      <span class="mdl-radio__label">`784, 256, 256, 10`</span>
     </label>
     <br>
     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
-      <input type="radio" id="quiz-3-1-option-1" class="mdl-radio__button" name="quiz-3-1" value="784, 1024, 1024, 10">
-      <span class="mdl-radio__label">784, 1024, 1024, 10</span>
+      <input type="radio" id="quiz-3-1-option-1" class="mdl-radio__button" name="quiz-3-1" value="`784, 512, 512, 10`">
+      <span class="mdl-radio__label">`784, 512, 512, 10`</span>
     </label>
     <br>
     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
-      <input type="radio" id="quiz-3-1-option-2" class="mdl-radio__button" name="quiz-3-1" value="256, 784, 10, 256">
-      <span class="mdl-radio__label">256, 784, 10, 256</span>
+      <input type="radio" id="quiz-3-1-option-2" class="mdl-radio__button" name="quiz-3-1" value="`256, 784, 10, 256`">
+      <span class="mdl-radio__label">`256, 784, 10, 256`</span>
     </label>
     <br>
     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
-      <input type="radio" id="quiz-3-1-option-3" class="mdl-radio__button" name="quiz-3-1" value="1024, 784, 10, 1024">
-      <span class="mdl-radio__label">1024, 784, 10, 1024</span>
+      <input type="radio" id="quiz-3-1-option-3" class="mdl-radio__button" name="quiz-3-1" value="`512, 784, 10, 512`">
+      <span class="mdl-radio__label">`512, 784, 10, 512`</span>
     </label>
 
 ## 继承与多态
@@ -140,7 +140,7 @@ title: Day 3：面向对象
 
 !!! question "小测：继承与多态"
 
-    下面是（伪）模型基类 `Model` 和多层感知机模型 `MLP` 的定义。
+    下面是（伪）模型基类 `Model` 和（伪）多层感知机模型 `MLP` 的定义。
 
     ``` python
     class Model:
@@ -149,9 +149,12 @@ title: Day 3：面向对象
             self.output_size = output_size
 
         def init_weights(self) -> None:
-            self.weights = None
+            self.weights = []
 
-        def forward(self, x):
+        def get_weights(self) -> list:
+            return self.weights
+
+        def forward(self, x) -> None:
             pass
 
     class MLP(Model):
@@ -164,41 +167,52 @@ title: Day 3：面向对象
             self.hidden_size = hidden_size
             self.init_weights()
 
-        def init_weights(self):
+        def init_weights(self) -> None:
             self.weights = [
                 [[0] * self.hidden_size] * self.input_size,
                 [[0] * self.output_size] * self.hidden_size
             ]
 
-        def forward(self, x):
+        def forward(self, x) -> None:
             pass
     ```
 
-    请问，`MLP` 类的 `init_weights` 方法之于 `Model` 类的 `init_weights` 方法，是以下哪种关系？
+    请问，以下代码的输出是什么？
+
+    ``` python
+    model = MLP(hidden_size=1024)
+    print(model.get_weights())
+    ```
 
     <!--
-    - [ ] 重载
-    - [ ] 覆盖
-    - [ ] 扩展
-    - [ ] 以上都不是
+    - [ ] `[]`
+    - [ ] `[[[0] * 256] * 784, [[0] * 10] * 256]`
+    - [ ] `[[[0] * 512] * 784, [[0] * 10] * 512]`
+    - [ ] `[[[0] * 256] * 512, [[0] * 10] * 256]`
+    - [ ] `[[[0] * 512] * 512, [[0] * 10] * 512]`
     -->
 
     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
-      <input type="radio" id="quiz-3-2-option-0" class="mdl-radio__button" name="quiz-3-2" value="重载">
-      <span class="mdl-radio__label">重载</span>
+      <input type="radio" id="quiz-3-2-option-0" class="mdl-radio__button" name="quiz-3-2" value="`[]`">
+      <span class="mdl-radio__label">`[]`</span>
     </label>
     <br>
     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
-      <input type="radio" id="quiz-3-2-option-1" class="mdl-radio__button" name="quiz-3-2" value="覆盖">
-      <span class="mdl-radio__label">覆盖</span>
+      <input type="radio" id="quiz-3-2-option-1" class="mdl-radio__button" name="quiz-3-2" value="`[[[0] * 256] * 784, [[0] * 10] * 256]`">
+      <span class="mdl-radio__label">`[[[0] * 256] * 784, [[0] * 10] * 256]`</span>
     </label>
     <br>
     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
-      <input type="radio" id="quiz-3-2-option-2" class="mdl-radio__button" name="quiz-3-2" value="扩展">
-      <span class="mdl-radio__label">扩展</span>
+      <input type="radio" id="quiz-3-2-option-2" class="mdl-radio__button" name="quiz-3-2" value="`[[[0] * 512] * 784, [[0] * 10] * 512]`">
+      <span class="mdl-radio__label">`[[[0] * 512] * 784, [[0] * 10] * 512]`</span>
     </label>
     <br>
     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
-      <input type="radio" id="quiz-3-2-option-3" class="mdl-radio__button" name="quiz-3-2" value="以上都不是">
-      <span class="mdl-radio__label">以上都不是</span>
+      <input type="radio" id="quiz-3-2-option-3" class="mdl-radio__button" name="quiz-3-2" value="`[[[0] * 256] * 512, [[0] * 10] * 256]`">
+      <span class="mdl-radio__label">`[[[0] * 256] * 512, [[0] * 10] * 256]`</span>
+    </label>
+    <br>
+    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
+      <input type="radio" id="quiz-3-2-option-4" class="mdl-radio__button" name="quiz-3-2" value="`[[[0] * 512] * 512, [[0] * 10] * 512]`">
+      <span class="mdl-radio__label">`[[[0] * 512] * 512, [[0] * 10] * 512]`</span>
     </label>
