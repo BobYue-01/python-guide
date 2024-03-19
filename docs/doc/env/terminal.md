@@ -13,7 +13,7 @@ icon: material/console
 
 ## 启动终端
 
-=== "Windows"
+=== ":simple-windows: Windows"
 
     Windows 系统中的终端是命令提示符（Command Prompt）和 PowerShell。
 
@@ -29,14 +29,14 @@ icon: material/console
 
     如果你当前使用的是 Windows 10，你可以通过 [Microsoft Store](https://apps.microsoft.com/detail/9n0dx20hk701){target="_blank"} 下载安装。
 
-=== "Linux"
+=== ":simple-linux: Linux"
 
     在大多数 Linux 发行版中，你可以通过以下方式打开终端：
 
     - 通过快捷键 ++ctrl+alt+t++；
     - 通过应用菜单，找到并点击 `终端`。
 
-=== "macOS"
+=== ":simple-apple: macOS"
 
     在 macOS 中，你可以通过以下方式打开终端：
 
@@ -57,15 +57,15 @@ icon: material/console
 
 绝对路径（Absolute Path）指从文件系统的根目录开始，一直到目标文件或目录的路径。
 
-=== "Windows"
+=== ":simple-windows: Windows"
 
     在 Windows 中，根目录通常是 `C:\`。
 
-=== "Linux"
+=== ":simple-linux: Linux"
 
     在类 Unix 系统中，根目录通常是 `/`。
 
-=== "macOS"
+=== ":simple-apple: macOS"
 
     在类 Unix 系统中，根目录通常是 `/`。
 
@@ -79,15 +79,15 @@ icon: material/console
 
 用户目录（User Directory）是指当前用户的个人目录。它通常用 `~` 表示，例如 `~/Documents` 表示当前用户的 `Documents` 目录。
 
-=== "Windows"
+=== ":simple-windows: Windows"
 
     在 Windows 中，用户目录通常是 `C:\Users\用户名`。
 
-=== "Linux"
+=== ":simple-linux: Linux"
 
     在 Linux 中，用户目录通常是 `/home/用户名`。
 
-=== "macOS"
+=== ":simple-apple: macOS"
 
     在 macOS 中，用户目录通常是 `/Users/用户名`。
 

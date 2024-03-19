@@ -10,7 +10,7 @@ title: Day 2：流程控制
 
 !!! tip "文档"
 
-    请阅读[**流程控制**](../doc/syntax/flow.md){target="_blank"}。
+    请阅读 [**:material-function: 流程控制**](../doc/syntax/flow.md){target="_blank"}。
 
     :material-timer-sand: 预计阅读时间：20 分钟
     {style="font-size: 0.8em"}

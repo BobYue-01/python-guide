@@ -18,7 +18,7 @@ title: Day 0：部署环境
 
 !!! tip "文档"
 
-    请阅读[**了解终端**](../doc/env/terminal.md){target="_blank"}。
+    请阅读 [**:material-console: 了解终端**](../doc/env/terminal.md){target="_blank"}。
 
     :material-timer-sand: 预计阅读时间：5 分钟
     {style="font-size: 0.8em"}
@@ -64,7 +64,7 @@ title: Day 0：部署环境
 
 !!! tip "文档"
 
-    请阅读[**安装 Python 解释器**](../doc/env/interpreter.md){target="_blank"}。
+    请阅读 [**:material-download-box: 安装 Python 解释器**](../doc/env/interpreter.md){target="_blank"}。
 
     :material-timer-sand: 预计阅读时间：5 分钟
     {style="font-size: 0.8em"}
@@ -120,7 +120,7 @@ title: Day 0：部署环境
 
 !!! tip "文档"
 
-    请阅读[**选择并配置集成开发环境 (IDE)**](../doc/env/ide/index.md){target="_blank"}。
+    请阅读 [**:material-application-braces-outline: 选择并配置集成开发环境 (IDE)**](../doc/env/ide/index.md){target="_blank"}。
 
     :material-timer-sand: 预计阅读时间：10 分钟
     {style="font-size: 0.8em"}

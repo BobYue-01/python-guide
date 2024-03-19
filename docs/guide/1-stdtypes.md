@@ -10,7 +10,7 @@ title: Day 1：内置类型
 
 !!! tip "文档"
 
-    请阅读[**内置类型**](../doc/syntax/stdtypes.md){target="_blank"}。
+    请阅读 [**:material-numeric: 内置类型**](../doc/syntax/stdtypes.md){target="_blank"}。
 
     :material-timer-sand: 预计阅读时间：25 分钟
     {style="font-size: 0.8em"}

@@ -13,7 +13,7 @@ icon: material/download-box
 
 ## :material-download-outline: 下载
 
-=== "Windows"
+=== ":simple-windows: Windows"
 
     === "使用 `winget` (建议)"
 
@@ -37,7 +37,7 @@ icon: material/download-box
         1. 基于当前绝大多数个人计算机是 AMD64 (x86 64-bit) 架构的。  
         请根据你的计算机实际架构选择合适的安装程序。
 
-=== "Linux"
+=== ":simple-linux: Linux"
 
     !!! success "跳过此步"
 
@@ -47,7 +47,7 @@ icon: material/download-box
 
 ## :material-package-variant: 安装
 
-=== "Windows"
+=== ":simple-windows: Windows"
 
     === "使用 `winget` (建议)"
 
@@ -70,7 +70,7 @@ icon: material/download-box
         5. (建议) 点击 `Disable path length limit`；
         6. 点击 `Close`。
 
-=== "Linux"
+=== ":simple-linux: Linux"
 
     !!! success "跳过此步"
 
@@ -80,7 +80,7 @@ icon: material/download-box
 
 ## :material-check-outline: 验证
 
-=== "Windows"
+=== ":simple-windows: Windows"
 
     打开[终端](./terminal.md){target="_blank"}，输入并执行以下命令：
 
@@ -90,7 +90,7 @@ icon: material/download-box
 
     如果输出 `Python 3.x.y`，则安装成功。
 
-=== "Linux"
+=== ":simple-linux: Linux"
 
     打开[终端](./terminal.md){target="_blank"}，输入并执行以下命令：
 

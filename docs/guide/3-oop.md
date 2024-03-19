@@ -16,7 +16,7 @@ title: Day 3：面向对象
 
 !!! tip "文档"
 
-    请阅读[**作用域与命名空间**](../doc/oop/scope.md){target="_blank"}。
+    请阅读 [**:material-variable: 作用域与命名空间**](../doc/oop/scope.md){target="_blank"}。
 
     :material-timer-sand: 预计阅读时间：5 分钟
     {style="font-size: 0.8em"}
@@ -67,7 +67,7 @@ title: Day 3：面向对象
 
 !!! tip "文档"
 
-    请阅读[**类与对象**](../doc/oop/class.md){target="_blank"}。
+    请阅读 [**:material-cube-outline: 类与对象**](../doc/oop/class.md){target="_blank"}。
 
     :material-timer-sand: 预计阅读时间：10 分钟
     {style="font-size: 0.8em"}
@@ -133,7 +133,7 @@ title: Day 3：面向对象
 
 !!! tip "文档"
 
-    请阅读[**继承与多态**](../doc/oop/inheritance.md){target="_blank"}。
+    请阅读 [**:material-call-split: 继承与多态**](../doc/oop/inheritance.md){target="_blank"}。
 
     :material-timer-sand: 预计阅读时间：10 分钟
     {style="font-size: 0.8em"}
