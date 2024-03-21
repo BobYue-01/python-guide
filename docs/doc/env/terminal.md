@@ -11,7 +11,7 @@ icon: material/console
 
     在接下来的学习中，我们不可避免地需要使用终端，因此有必要了解一些基本的终端操作。
 
-## 启动终端
+## 启动终端 {#start-terminal}
 
 === ":simple-windows: Windows"
 
@@ -100,3 +100,20 @@ icon: material/console
 通常地，你打开终端时，工作目录会被设置为用户目录。
 
 在终端中，你可以通过 `cd` 命令切换工作目录，通过 `pwd` 命令查看当前工作目录的路径。
+
+### 管理员权限 {#admin-permission}
+
+=== ":simple-windows: Windows"
+
+    在 Windows 中，你需要以管理员权限运行终端，才能执行一些需要管理员权限的操作。
+
+    你可以通过以下方式以管理员权限运行终端：
+
+    - 通过 ++win+x++ 唤起「快捷菜单」，按下 ++a++ 键；
+    - 通过 ++win+s++ 唤起「搜索」，输入 `powershell`，右键点击 `Windows PowerShell`，选择 `以管理员身份运行`。
+
+=== ":simple-linux: Linux"
+
+    在 Linux 中，你可以通过 `sudo` 命令以管理员权限运行某些命令。
+
+    例如，你可以通过 `sudo -i` 命令切换到管理员权限的终端。

@@ -17,7 +17,9 @@ icon: material/download-box
 
     === "使用 `winget` (建议)"
 
-        打开[终端](./terminal.md){target="_blank"}，输入并执行以下命令：
+        如果你的 Windows 10 / 11 近期已更新，你可以直接使用 `winget` 安装 Python 解释器。
+
+        [以管理员权限](./terminal.md#admin-permission){target="_blank"}打开[终端](./terminal.md){target="_blank"}，输入并执行以下命令：
 
         ``` bash
         winget install -e --id Python.Python.3.12 --scope machine
@@ -34,7 +36,7 @@ icon: material/download-box
 
         </div>
 
-        1. 基于当前绝大多数个人计算机是 AMD64 (x86 64-bit) 架构的。  
+        5. 基于当前绝大多数个人计算机是 AMD64 (x86 64-bit) 架构的。  
         请根据你的计算机实际架构选择合适的安装程序。
 
 === ":simple-linux: Linux"
@@ -55,7 +57,7 @@ icon: material/download-box
 
         此外，我们建议取消 Windows 的路径长度限制。
 
-        打开[终端](./terminal.md){target="_blank"}（此时需要使用管理员权限，请使用 ++win+x++，并按下 ++a++），输入并执行以下命令：
+        [以管理员权限](./terminal.md#admin-permission){target="_blank"}打开[终端](./terminal.md){target="_blank"}，输入并执行以下命令：
 
         ``` bash
         Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name LongPathsEnabled -Value 1 -Force

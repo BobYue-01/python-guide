@@ -98,6 +98,9 @@ markdown_extensions:
       generic: true
   - pymdownx.tabbed:
       alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.keys
