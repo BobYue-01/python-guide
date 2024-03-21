@@ -1,0 +1,66 @@
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #3776ab;
+  --md-primary-fg-color--light: #4390d1;
+  --md-primary-fg-color--dark:  #265277;
+  --md-accent-fg-color:         #cca835;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #4390d1;
+  --md-primary-fg-color--light: #4faaf7;
+  --md-primary-fg-color--dark:  #3776ab;
+  --md-accent-fg-color:         #ffd343;
+}
+
+.md-header, .md-tabs {
+  background-color:             #3776ab;
+}
+
+::selection {
+  background: var(--md-accent-fg-color);
+  color: var(--md-default-bg-color);
+}
+
+.md-typeset .md-button:hover {
+  color: var(--md-default-bg-color);
+}
+
+.md-typeset .admonition.question, .md-typeset details.question {
+  font-size: 1em;
+  border-width: 0;
+  border-color: #63dd1780;
+  border-left-width: 3px;
+}
+
+.md-typeset .admonition.tip {
+  font-size: 1em;
+  border-width: 0;
+  border-color: #00bfa580;
+  border-left-width: 3px;
+}
+
+.mdl-radio__outer-circle {
+  border-color: var(--md-typeset-color);
+}
+.mdl-radio.is-checked .mdl-radio__outer-circle {
+  border-color: var(--md-accent-fg-color);
+}
+.mdl-radio__outer-circle fieldset[disabled] .mdl-radio,
+.mdl-radio.is-disabled .mdl-radio__outer-circle {
+  border-color: var(--md-default-bg-color--light);
+}
+
+.mdl-radio__inner-circle {
+  background: var(--md-accent-fg-color);
+}
+fieldset[disabled] .mdl-radio .mdl-radio__inner-circle,
+.mdl-radio.is-disabled .mdl-radio__inner-circle {
+  background: var(--md-default-bg-color--light);
+}
+.mdl-radio.is-focused .mdl-radio__inner-circle {
+  box-shadow: 0 0 0px 10px var(--md-default-bg-color--lighter);
+}
+
+.mdl-radio__ripple-container .mdl-ripple {
+  background: var(--md-accent-fg-color);
+}
