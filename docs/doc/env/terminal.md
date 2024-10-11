@@ -13,7 +13,7 @@ icon: material/console
 
 ## 启动终端 {#start-terminal}
 
-=== ":simple-windows: Windows"
+=== ":fontawesome-brands-windows: Windows"
 
     Windows 系统中的终端是命令提示符（Command Prompt）和 PowerShell。
 
@@ -57,7 +57,7 @@ icon: material/console
 
 绝对路径（Absolute Path）指从文件系统的根目录开始，一直到目标文件或目录的路径。
 
-=== ":simple-windows: Windows"
+=== ":fontawesome-brands-windows: Windows"
 
     在 Windows 中，根目录通常是 `C:\`。
 
@@ -79,7 +79,7 @@ icon: material/console
 
 用户目录（User Directory）是指当前用户的个人目录。它通常用 `~` 表示，例如 `~/Documents` 表示当前用户的 `Documents` 目录。
 
-=== ":simple-windows: Windows"
+=== ":fontawesome-brands-windows: Windows"
 
     在 Windows 中，用户目录通常是 `C:\Users\用户名`。
 
@@ -103,7 +103,7 @@ icon: material/console
 
 ### 管理员权限 {#admin-permission}
 
-=== ":simple-windows: Windows"
+=== ":fontawesome-brands-windows: Windows"
 
     在 Windows 中，你需要以管理员权限运行终端，才能执行一些需要管理员权限的操作。
 

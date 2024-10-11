@@ -74,6 +74,13 @@ nav:
       - 作用域与命名空间: doc/oop/scope.md
       - 类与对象: doc/oop/class.md
       - 继承与多态: doc/oop/inheritance.md
+    - 第三方库:
+      - doc/libs/index.md
+      - NumPy: doc/libs/numpy.md
+      - Pandas: doc/libs/pandas.md
+      - Matplotlib: doc/libs/matplotlib.md
+      - Scikit-learn: doc/libs/scikit-learn.md
+      - PyTorch: doc/libs/pytorch.md
 
 plugins:
   # - tags:
@@ -110,6 +117,8 @@ markdown_extensions:
   - pymdownx.tilde
   - admonition
   - footnotes
+  - toc:
+      permalink: true
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css

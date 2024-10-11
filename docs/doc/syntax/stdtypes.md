@@ -101,14 +101,14 @@ s[0] = 'h'   # TypeError: 'str' object does not support item assignment
 
 ??? question "小测：字符串格式化"
 
-    准确率 `acc` 为 `0.952357`。请使用 `f-string` 或其他方式格式化输出 `acc` 的值，以百分比形式表示，保留 2 位小数。
+    准确率 `acc` 为 `0.952357`。请使用 f-string 或其他方式格式化输出 `acc` 的值，以百分比形式表示，保留 2 位小数。
 
     ``` python
     acc = 0.952357
     print(...)  # 95.24%
     ```
 
-    提示：使用 `f-string` 时，可以在大括号中使用 `:.nf` 来指定 $n$ 位小数。
+    提示：使用 f-string 时，可以在大括号中使用 `:.nf` 来指定 $n$ 位小数。
 
     <!--
     ``` python

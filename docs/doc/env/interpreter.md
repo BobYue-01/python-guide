@@ -13,7 +13,7 @@ icon: material/download-box
 
 ## :material-download-outline: 下载
 
-=== ":simple-windows: Windows"
+=== ":fontawesome-brands-windows: Windows"
 
     === "使用 `winget` (建议)"
 
@@ -43,13 +43,13 @@ icon: material/download-box
 
     !!! success "跳过此步"
 
-        Python 预装在大多数 Linux 发行版上。请直接跳转至[验证](#验证)步骤。
+        Python 预装在大多数 Linux 发行版上。请直接跳转至[验证](#_3)步骤。
 
         如有特殊需求，请参阅[官方文档](https://docs.python.org/3/using/unix.html){target="_blank"}。
 
 ## :material-package-variant: 安装
 
-=== ":simple-windows: Windows"
+=== ":fontawesome-brands-windows: Windows"
 
     === "使用 `winget` (建议)"
 
@@ -76,13 +76,13 @@ icon: material/download-box
 
     !!! success "跳过此步"
 
-        Python 预装在大多数 Linux 发行版上。请直接跳转至[验证](#验证)步骤。
+        Python 预装在大多数 Linux 发行版上。请直接跳转至[验证](#_3)步骤。
 
         如有特殊需求，请参阅[官方文档](https://docs.python.org/3/using/unix.html){target="_blank"}。
 
 ## :material-check-outline: 验证
 
-=== ":simple-windows: Windows"
+=== ":fontawesome-brands-windows: Windows"
 
     打开[终端](./terminal.md){target="_blank"}，输入并执行以下命令：
 

@@ -1,9 +1,9 @@
 ---
 title: 配置 Visual Studio Code
-icon: simple/visualstudiocode
+icon: material/microsoft-visual-studio-code
 ---
 
-# :simple-visualstudiocode:<br>配置 Visual Studio Code
+# :material-microsoft-visual-studio-code:<br>配置 Visual Studio Code
 
 ## :material-download-outline: 安装 Visual Studio Code
 
